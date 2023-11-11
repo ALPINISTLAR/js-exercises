@@ -1,3 +1,4 @@
+alert('kamchiliklar bor hali, ayrimlariga kod yozilmagan')
 // ** 1 **
 function dastur_1() {
   let a = +prompt("Ushbu dastur butun son qabul qiladi. Agar son musbat bo'lsa 1 ga oshiradi, aks holda o'z holicha ekranga chiqaradi. Sonni kiriting:");
@@ -70,6 +71,17 @@ function dastur_10() {
   let a = +prompt("Ushbu dastur A va B butun sonlar qabul qiladi. Agar sonlar o'zaro teng bo'lmasa, A va B ning qiymati ularning yig'indisiga teng bo'ladi, agar sonlar teng bo'lsa 0 ni o'zlashtiradi va ekranga chiqaradi. A sonni kiriting:");
   let b = +prompt("B sonni kiriting:");
   let c = a + b;
+  if (a != b) {
+    document.getElementById("demo").innerHTML = 'A = ' + c + ', B = ' + c;
+  }
+  else {
+    document.getElementById("demo").innerHTML = 0;
+  }
+}
+// ** 11 **
+function dastur_11() {
+  let a = +prompt("Ushbu dastur A va B butun sonlar qabul qiladi. Agar sonlar o'zaro teng bo'lmasa, A va B ning qiymati ularning eng kattasiga teng bo'ladi, agar sonlar teng bo'lsa 0 ni o'zlashtiradi va ekranga chiqaradi. A sonni kiriting:");
+  let b = +prompt("B sonni kiriting:");
   if (a != b) {
     document.getElementById("demo").innerHTML = 'A = ' + c + ', B = ' + c;
   }
