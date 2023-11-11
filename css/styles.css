@@ -101,10 +101,11 @@ select:-webkit-autofill:focus {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  row-gap: 20px;
-  padding: 30px 160px 160px;
+  row-gap: 30px;
+  column-gap: calc((100% - 650px) / 4);
+  padding: 30px 100px 160px;
   border-radius: 15px;
-  background-color: #242D44;
+  background-color: #212c46;
 }
 .title{
   color: #fff;
