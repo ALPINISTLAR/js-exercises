@@ -36,14 +36,13 @@ function dastur_4() {
   let a = +prompt("Ushbu dastur 3 ta butun son qabul qiladi. Va shu sonlar orasida nechta musbat sonlar borligini aniqlaydi. 1 - sonni kiriting:");
   let b = +prompt("2 - sonni kiriting:");
   let c = +prompt("3 - sonni kiriting:");
-  let d = a - c - 2;
   if (a > b > c) {
     document.getElementById("demo").innerHTML = d + ' ta musbat son bor';
   } else if (a < 0) {
-    document.getElementById("demo").innerHTML = a - 2;
+
   }
   else {
-    document.getElementById("demo").innerHTML = 10;
+
   }
 }
 
