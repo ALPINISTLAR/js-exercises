@@ -1,4 +1,4 @@
-alert(`!! ESLATMA: Ayrim natijalar faqat 'console'ga, ayrimlari esa 'console'ga ham ekrandagi bo'sh maydonga ham chiqadi!`)
+
 
 function for_1() {
   let K = prompt(`Vazifa tavsifi: 'K' va 'N' butun sonlar berilgan (N>0). 'K' sonini 'N' marta chiqaruvchi programma tuzilsin.
@@ -183,4 +183,25 @@ function for_12() {
   }
   document.getElementById("demo").innerHTML = (`Ko'paytma: ` + S);
   console.log(`Ko'paytma:`, S);
+}
+
+
+// WHILE
+function while_1() {
+let a = +prompt(`Vazifa tavsifi: a va b musbat sonlari berilgan (a>b), a ustunlikdagi kesmada maksimal darajada b kesma joylashtirilgan. a kesmaning bo'sh qismini aniqlovchi dastur tuzilsin. Ko'paytirish va bo'lish amallari ishlatilmasin.
+
+Natija 'console'ga ham ekranga ham chiqadi.
+
+'a'ni kiriting:`);
+let b = +prompt(`'b'ni kiriting:`)
+
+  while (a > b && a > 0 && b > 0) {
+    // a kesmaning bosh qismi
+    if (a > b && a > 0 && b > 0) {
+      console.log(`'A' kesmaning bo'sh qismi: ` + (a - b) + ' cm');
+      break
+    } else if (a < 0 && b < 0) {
+      console.log('To\'g\'ri sonlarni kiriting (a > b va a, b musbat bo\'lishi kerak).');
+    }
+  }
 }

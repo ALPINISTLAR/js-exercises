@@ -61,7 +61,12 @@ select:-webkit-autofill:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+input[type="color"] {
+  width: 100px; /* O'lchamni o'zgartirish */
+  height: 100px;
+  border: 5px solid #ddd; /* cheklangan chiziq rangi */
+  border-radius: 50%; /* Radiusni o'zgartirish */
+}
 /* *** CONTAINER *** */
 .container
 {
@@ -92,7 +97,7 @@ select:-webkit-autofill:focus {
   line-height: normal;
 }
 .btn-index{
-  max-width: 200px;
+  max-width: 300px;
 }
 .btn:hover{
   opacity: 0.8;
@@ -115,6 +120,7 @@ select:-webkit-autofill:focus {
   gap: 50px;
 }
 .box{
+  margin-top: 100px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -152,4 +158,9 @@ select:-webkit-autofill:focus {
   font-weight: 700;
   line-height: 1.5;
   overflow: auto;
+}
+
+.input-wrapper{
+display: flex;
+gap: 50px;
 }
