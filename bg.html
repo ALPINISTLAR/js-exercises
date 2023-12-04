@@ -18,20 +18,27 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<!-- ************************ -->
-<!-- ***   MAIN SECTION   *** -->
-<!-- ************************ -->
-<main class="main-content">
-  <div class="container">
-    <div class="box">
-<div class="input-wrapper">
-  <input type="color">
-  <input type="color">
-  <input type="color">
-</div>
+  <!-- ************************ -->
+  <!-- ***   MAIN SECTION   *** -->
+  <!-- ************************ -->
+  <main class="main-content">
+    <div class="container">
+      <div class="box">
+        <h1>Ushbu funksiya ma'lum vaqt oralig'ida sayt fonini turli ranglarga o'zgartiradi.Buning uchun turli ranglarni tanlab, keyin vaqtni kiriting.</h1>
+        <div class="input-wrapper">
+          <input id="colorInput1" type="color">
+          <input id="colorInput2" type="color">
+          <input id="colorInput3" type="color">
+        </div>
+        <p class="info">Inputga millisekundlarda vaqt kirirting. Masalan 1 sekund kiritish uchun: 1000;</p>
+        <input id="timeInput" class="input-field" type="input">
+        <div class="btnn-w">
+          <button class="btnn starter" onclick="changeBackgroundColor()">start</button>
+          <button class="btnn stoper" onclick="stop()">stop</button>
+        </div>
       </div>
-      </div>
-</main>
+    </div>
+  </main>
 
   <script src="js/main.js"></script>
 </body>
