@@ -214,14 +214,29 @@ margin-bottom: 40px;
   transform: translateY(2px);
 }
 .sekundomer{
-  /* margin: 0; */
+  margin: 0;
+  min-height: 100px;
   color: #fff;
   font-size: 86px;
   line-height: normal;
 }
 .btn-wrapper{
-  width: 300px;
+  width: 200px;
   margin-top: 20px;
   display: flex;
   gap: 20px;
+}
+.timer-title{
+  padding-bottom: 120px;
+}
+#duration{
+  padding: 8px;
+  border-radius: 12px;
+}
+.lb{
+  max-width: 345px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #fff;
 }
