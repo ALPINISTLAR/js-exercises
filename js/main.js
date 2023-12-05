@@ -17,3 +17,11 @@ function changeBackgroundColor() {
 function stop() {
   clearInterval(interval);
 }
+
+
+const timer = document.getElementById('timer');
+const sekundomer = document.getElementById('sekund').value;
+
+function sekund() {
+  timer.innerHTML = '3';
+}
